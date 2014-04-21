@@ -25,10 +25,6 @@ todo.on("add", add).on("remove", function (id) {
     $("#" + id).remove();
 }).on("toggle", function (item) {
     toggle($("#" + item.id), !! item.done)
-}).on("edit", function (item) {
-    var el = $("#" + item.id);
-    el.removeClass("editing");
-    $("label, .edit", el).text(item.name).val(item.name);
 }).on("add remove toggle", counts);
 
 
