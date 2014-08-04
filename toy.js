@@ -1,7 +1,7 @@
 // Toy.js by Andrej Pancik
 // This is free and unencumbered software released into the public domain.
 
-var toy = (function () {
+var toy = toy || (function () {
     "use strict";
 
     function escapeHtml(input) {
