@@ -1,4 +1,4 @@
-function Todo(db) {
+function Todo() {
     toy.model(this);
 
     var items = {};
